@@ -29,12 +29,17 @@ export default function HomePage() {
                   <p className="card-text">
                     Conoce nuestras enseñanzas de ESO, Bachillerato y FP.
                   </p>
-                  <Link
-                    href="/oferta-educativa/eso"
-                    className="btn btn-primary"
-                  >
-                    Ver más
-                  </Link>
+                  <div className="d-flex gap-2">
+                    <Link
+                      href="/oferta-educativa/eso"
+                      className="btn btn-primary"
+                    >
+                      Ver m?s
+                    </Link>
+                    <Link href="/modal" className="btn btn-outline-primary">
+                      Ver detalle
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

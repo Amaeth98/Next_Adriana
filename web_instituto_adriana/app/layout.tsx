@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "IES Cura Valera",
@@ -20,11 +21,7 @@ export default function RootLayout({
         <Hero />
         <Navbar />
         <main className="container py-4">{children}</main>
-        <footer className="bg-dark text-light mt-5">
-          <div className="container py-4">
-            <p className="mb-0">IES Cura Valera-IAW 2º ASIR</p>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
